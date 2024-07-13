@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .bg-img{
+        background-image: url(./images/Untitled-1.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: 1800px 1100px;
+    }
+    .inst-img{
+        background-image: url(./images/qr/Ryuvzakiinst.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 490px 500px;
+        border-radius: 20px;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        opacity: 70%;
+    }
+    .youtube-img{
+        background-image: url(./images/qr/Ryuvzakiyoutube.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 490px 500px;
+        border-radius: 20px;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        opacity: 70%;
+    }
+}
